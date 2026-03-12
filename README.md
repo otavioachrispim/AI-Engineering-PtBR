@@ -1,7 +1,13 @@
 # AI Engineering: Do Conceito à Produção
 
-> Curso completo de engenharia de IA aplicada — 11 capítulos, 35 módulos, 45 laboratórios interativos.  
+> Curso completo de engenharia de IA aplicada — 11 capítulos, 35 módulos, 45 laboratórios interativos.
 > Aplicado ao **Costa Lima Piscinas**, um ERP real em produção.
+
+---
+
+## 📚 Conteúdo Completo do Curso
+
+O conteúdo integral do curso está disponível no arquivo **[`ai-engineering-livro-completo.md`](ai-engineering-livro-completo.md)**. Leia este arquivo para acessar todo o material teórico, exemplos de código, laboratórios e projetos integradores em um único documento.
 
 ---
 
