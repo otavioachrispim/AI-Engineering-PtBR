@@ -55,10 +55,6 @@ Acesse [http://localhost:3000](http://localhost:3000)
 
 ### Build de Produção
 
-```bash
-npm run build
-npm start
-```
 Acesse [https://ai-engineering-pt-br.vercel.app/](https://ai-engineering-pt-br.vercel.app/)
 
 ## 📁 Estrutura do Projeto
