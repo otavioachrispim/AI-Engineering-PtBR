@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  background: #060911;
+  color: #e0e8f5;
+}
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
+
+/* Lab container: fills viewport, no extra padding */
+.lab-container {
+  width: 100%;
+  min-height: 100vh;
+}
