@@ -8,10 +8,22 @@ body {
   font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
   background: #060911;
   color: #e0e8f5;
+  margin: 0;
 }
 
 /* Smooth scrolling */
 html { scroll-behavior: smooth; }
+
+body > .skiptranslate,
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget,
+.goog-logo-link {
+  display: none !important;
+}
+
+body.skiptranslate {
+  top: 0 !important;
+}
 
 /* Lab container: fills viewport, no extra padding */
 .lab-container {

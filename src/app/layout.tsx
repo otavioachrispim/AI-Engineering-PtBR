@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Script from "next/script";
+import AppHeader from "@/components/app-header";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +16,31 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        <AppHeader />
+        {children}
+
+        <Script id="google-translate-init" strategy="afterInteractive">
+          {`
+            window.googleTranslateElementInit = function () {
+              if (!window.google || !window.google.translate) return;
+
+              new window.google.translate.TranslateElement(
+                {
+                  pageLanguage: "pt",
+                  includedLanguages: "pt,en",
+                  autoDisplay: false,
+                },
+                "google_translate_element"
+              );
+            };
+          `}
+        </Script>
+        <Script
+          src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }
