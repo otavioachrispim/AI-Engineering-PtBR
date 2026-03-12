@@ -59,22 +59,7 @@ Acesse [http://localhost:3000](http://localhost:3000)
 npm run build
 npm start
 ```
-
-## 🌐 Deploy na Vercel
-
-### Opção 1: Deploy automático
-1. Push para o GitHub
-2. Acesse [vercel.com/new](https://vercel.com/new)
-3. Importe o repositório
-4. Deploy automático
-
-### Opção 2: CLI
-```bash
-npm i -g vercel
-vercel
-```
-
-Nenhuma variável de ambiente é necessária — os labs rodam 100% no browser.
+Acesse [https://ai-engineering-pt-br.vercel.app/](https://ai-engineering-pt-br.vercel.app/)
 
 ## 📁 Estrutura do Projeto
 
